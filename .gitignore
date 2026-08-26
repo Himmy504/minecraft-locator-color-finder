@@ -1,0 +1,12 @@
+/target/
+/.idea/
+/.vscode/
+*.swp
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+/matches*.csv
+/results*.csv
+/*.zst
+/*.part

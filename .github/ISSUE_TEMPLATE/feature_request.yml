@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest an improvement that fits the project's Java Locator Bar scope.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Explain the use case rather than only describing a preferred implementation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope confirmation
+      options:
+        - label: This request concerns Minecraft Java's UUID-derived default Locator Bar color or dataset workflow.
+          required: true
+
